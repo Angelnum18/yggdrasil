@@ -177,6 +177,48 @@ img {
     justify-content: flex-end;
 }
 /* Quote CSS END */
+/* Call to Action CSS */
+.call-to-action {
+    background-color: white;
+    width: 204vh;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cta {
+    width: 1000px;
+    height: 140px;
+    background-color: #3882F6;
+    border: 8px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-cta {
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+}
+.text-cta {
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.bottom-cta {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 24px;
+    margin-right: 40px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
 
 
 
@@ -186,6 +228,7 @@ img {
     color: #E5E7EB;
     height: 68px;
     display: flex;
+    flex-direction: column;
     flex: initial;
     justify-content: center;
     align-items: center;  
