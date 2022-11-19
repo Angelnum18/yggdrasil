@@ -148,8 +148,35 @@ img {
     border-radius: 25px;
 }
 /* Main Deities CSS  END*/
+/* Quote CSS  */
+.quote {
+    background-color: #E5E7EB;
+    width: 204vh;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote-container {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
 
+.quote-text {
+    font-style: italic;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+}
+/* Quote CSS END */
 
 
 
