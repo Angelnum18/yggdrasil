@@ -1,10 +1,12 @@
 body {
-    width: 205vh;
+    width: 204vh;
     display: flex;
     flex-direction: column;
     margin: -5px 0px 0px -5px;
 }
 
+
+/* Header CSS */
 .header {
     background-color: #1F2937;
     padding: 0%;
@@ -32,16 +34,68 @@ body {
     border: 0;
 }
 
-.main {
-    background-color: aquamarine;
+.page-identity {
     display: flex;
-    flex: 2 1 auto;
-    height: 50vh;
     justify-content: center;
     align-items: center;
-    
 }
 
+.page-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* Header CSS END */
+
+/* Main CSS */
+.header-2 {
+    background-color: #1F2937;
+    max-width: 204vh;
+    margin: -5px 0px 0px -5px;
+    padding: 5px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-2-content {
+    max-width: 500px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.header-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.sign-in-botton {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 12px;
+    padding: 12px 24px;
+    max-width: 64px;
+}
+
+img {
+    max-width: 550px;
+    max-height: auto;
+}
+
+/* MAIN CSS END */
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -49,11 +103,11 @@ body {
     display: flex;
     flex: initial;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 ul {
+    font-weight: 700;
     list-style: none;
     list-style-type: none;
     text-decoration: none;
