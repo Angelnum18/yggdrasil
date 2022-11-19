@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: -5px 0px 0px -5px;
+    font-family: sans-serif;
 }
 
 
@@ -49,6 +50,7 @@ body {
 /* Header CSS END */
 
 /* Main CSS */
+/* Header 2 CSS */
 .header-2 {
     background-color: #1F2937;
     max-width: 204vh;
@@ -94,6 +96,62 @@ img {
     max-width: 550px;
     max-height: auto;
 }
+/* Header 2 CSS END */
+/* Main Deities CSS */
+.main-deities {
+    background-color: white;
+    max-width: 204vh;
+    margin: -5px 0px 0px -5px;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deities-title {
+    color: #1F2937;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.deities-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deity-title {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.deity-text {
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.deity {
+    max-width: 200px;
+    max-height: 200px;
+    border: 8px solid #3882F6 ;
+    border-radius: 25px;
+}
+/* Main Deities CSS  END*/
+
+
+
+
 
 /* MAIN CSS END */
 .footer {
