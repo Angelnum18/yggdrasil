@@ -1,5 +1,5 @@
 body {
-    width: 204vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     margin: -5px 0px 0px -5px;
@@ -53,7 +53,7 @@ body {
 /* Header 2 CSS */
 .header-2 {
     background-color: #1F2937;
-    max-width: 204vh;
+    max-width: 100vw;
     margin: -5px 0px 0px -5px;
     padding: 5px;
     padding-bottom: 64px;
@@ -100,7 +100,7 @@ img {
 /* Main Deities CSS */
 .main-deities {
     background-color: white;
-    max-width: 204vh;
+    max-width: 100vw;
     margin: -5px 0px 0px -5px;
     padding: 10px;
     padding-bottom: 20px;
@@ -151,7 +151,7 @@ img {
 /* Quote CSS  */
 .quote {
     background-color: #E5E7EB;
-    width: 204vh;
+    max-width: 100vw;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -180,7 +180,7 @@ img {
 /* Call to Action CSS */
 .call-to-action {
     background-color: white;
-    width: 204vh;
+    max-width: 100vw;
     height: 300px;
     display: flex;
     justify-content: center;
